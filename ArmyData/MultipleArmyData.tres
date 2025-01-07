@@ -1,0 +1,653 @@
+[gd_resource type="Resource" script_class="ArmyResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Autoloads/Army_resource.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+army_data = [[{
+"Name": "Troop_0_Unit_0",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.750235, 0.750235, 0.81291, 1),
+"Distance": 85.0,
+"Faction": "Player",
+"Health": 200,
+"ID": 2896870403,
+"Metabolism": 1.0753,
+"Multistrike": true,
+"Name": "Zormak",
+"Range": 5,
+"Scale": 0.124332,
+"Speed": 10,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_brawler.tres",
+"Strength": 20,
+"Type": "Brawler",
+"Unit_name": "Troop_0_Unit_0",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_0_Unit_1",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.750235, 0.750235, 0.81291, 1),
+"Distance": 95.0,
+"Faction": "Player",
+"Health": 200,
+"ID": 2242620780,
+"Metabolism": 0.872083,
+"Multistrike": true,
+"Name": "Brashok",
+"Range": 5,
+"Scale": 0.123367,
+"Speed": 10,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_brawler.tres",
+"Strength": 20,
+"Type": "Brawler",
+"Unit_name": "Troop_0_Unit_1",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_0_Unit_2",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.750235, 0.750235, 0.81291, 1),
+"Distance": 105.0,
+"Faction": "Player",
+"Health": 200,
+"ID": 1750709805,
+"Metabolism": 1.06357,
+"Multistrike": true,
+"Name": "Zagor",
+"Range": 5,
+"Scale": 0.12444,
+"Speed": 10,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_brawler.tres",
+"Strength": 20,
+"Type": "Brawler",
+"Unit_name": "Troop_0_Unit_2",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}], [{
+"Name": "Troop_1_Unit_0",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.825504, 0.825504, 0.869291, 1),
+"Distance": 160.0,
+"Faction": "Player",
+"Health": 300,
+"ID": 661798220,
+"Metabolism": 0.892122,
+"Multistrike": true,
+"Name": "Shorgath",
+"Range": 30,
+"Scale": 0.498429,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_elemental.tres",
+"Strength": 45,
+"Type": "Elemental",
+"Unit_name": "Troop_1_Unit_0",
+"Variation": 0.025,
+"Weapon": {}
+}
+}], [{
+"Name": "Troop_2_Unit_0",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.806548, 0.806548, 0.855092, 1),
+"Distance": 235.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 1375671613,
+"Metabolism": 1.17357,
+"Multistrike": false,
+"Name": "Narvok",
+"Range": 15,
+"Scale": 0.175788,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 10,
+"Type": "Sharkling_Spear",
+"Unit_name": "Troop_2_Unit_0",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_2_Unit_1",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.806548, 0.806548, 0.855092, 1),
+"Distance": 245.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 3171271379,
+"Metabolism": 1.08662,
+"Multistrike": false,
+"Name": "Murgash",
+"Range": 15,
+"Scale": 0.174764,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 10,
+"Type": "Sharkling_Spear",
+"Unit_name": "Troop_2_Unit_1",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_2_Unit_2",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.806548, 0.806548, 0.855092, 1),
+"Distance": 255.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 2928117709,
+"Metabolism": 1.10036,
+"Multistrike": false,
+"Name": "Sharvok",
+"Range": 15,
+"Scale": 0.171365,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 10,
+"Type": "Sharkling_Spear",
+"Unit_name": "Troop_2_Unit_2",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_2_Unit_3",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.806548, 0.806548, 0.855092, 1),
+"Distance": 265.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 3715979440,
+"Metabolism": 1.11626,
+"Multistrike": false,
+"Name": "Vakroth",
+"Range": 15,
+"Scale": 0.178672,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 10,
+"Type": "Sharkling_Spear",
+"Unit_name": "Troop_2_Unit_3",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_2_Unit_4",
+"Stats": {
+"Attack_Mode": "Melee",
+"Color": Color(0.806548, 0.806548, 0.855092, 1),
+"Distance": 275.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 387602948,
+"Metabolism": 1.03782,
+"Multistrike": false,
+"Name": "Karvash",
+"Range": 15,
+"Scale": 0.170136,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 10,
+"Type": "Sharkling_Spear",
+"Unit_name": "Troop_2_Unit_4",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}], [{
+"Name": "Troop_3_Unit_0",
+"Stats": {
+"Attack_Mode": "Ranged",
+"Color": Color(0.848683, 0.848683, 0.886654, 1),
+"Distance": 310.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 1258470075,
+"Metabolism": 0.965706,
+"Multistrike": false,
+"Name": "Bargoth",
+"Range": 500,
+"Scale": 0.173396,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 20,
+"Type": "Sharkling_Gunner",
+"Unit_name": "Troop_3_Unit_0",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_3_Unit_1",
+"Stats": {
+"Attack_Mode": "Ranged",
+"Color": Color(0.848683, 0.848683, 0.886654, 1),
+"Distance": 320.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 2012312148,
+"Metabolism": 0.894241,
+"Multistrike": false,
+"Name": "Thrakar",
+"Range": 500,
+"Scale": 0.177321,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 20,
+"Type": "Sharkling_Gunner",
+"Unit_name": "Troop_3_Unit_1",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_3_Unit_2",
+"Stats": {
+"Attack_Mode": "Ranged",
+"Color": Color(0.848683, 0.848683, 0.886654, 1),
+"Distance": 330.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 3331673866,
+"Metabolism": 1.09518,
+"Multistrike": false,
+"Name": "Grothor",
+"Range": 500,
+"Scale": 0.175288,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 20,
+"Type": "Sharkling_Gunner",
+"Unit_name": "Troop_3_Unit_2",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_3_Unit_3",
+"Stats": {
+"Attack_Mode": "Ranged",
+"Color": Color(0.848683, 0.848683, 0.886654, 1),
+"Distance": 340.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 355475119,
+"Metabolism": 0.88383,
+"Multistrike": false,
+"Name": "Morvak",
+"Range": 500,
+"Scale": 0.177813,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 20,
+"Type": "Sharkling_Gunner",
+"Unit_name": "Troop_3_Unit_3",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_3_Unit_4",
+"Stats": {
+"Attack_Mode": "Ranged",
+"Color": Color(0.848683, 0.848683, 0.886654, 1),
+"Distance": 350.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 170477217,
+"Metabolism": 1.15945,
+"Multistrike": false,
+"Name": "Narvok",
+"Range": 500,
+"Scale": 0.176436,
+"Speed": 15,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_spear.tres",
+"Strength": 20,
+"Type": "Sharkling_Gunner",
+"Unit_name": "Troop_3_Unit_4",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}], [{
+"Name": "Troop_4_Unit_0",
+"Stats": {
+"Attack_Mode": "Rider",
+"Color": Color(0.913306, 0.913306, 0.935061, 1),
+"Distance": 385.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 1233698282,
+"Metabolism": 1.05016,
+"Multistrike": true,
+"Name": "Barvok",
+"Range": 20,
+"Scale": 0.171139,
+"Speed": 25,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_rider_spear.tres",
+"Strength": 15,
+"Type": "Sharkling_Rider_Spear",
+"Unit_name": "Troop_4_Unit_0",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_4_Unit_1",
+"Stats": {
+"Attack_Mode": "Rider",
+"Color": Color(0.913306, 0.913306, 0.935061, 1),
+"Distance": 395.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 1376243936,
+"Metabolism": 1.13353,
+"Multistrike": true,
+"Name": "Vashnar",
+"Range": 20,
+"Scale": 0.178594,
+"Speed": 25,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_rider_spear.tres",
+"Strength": 15,
+"Type": "Sharkling_Rider_Spear",
+"Unit_name": "Troop_4_Unit_1",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}, {
+"Name": "Troop_4_Unit_2",
+"Stats": {
+"Attack_Mode": "Rider",
+"Color": Color(0.913306, 0.913306, 0.935061, 1),
+"Distance": 405.0,
+"Faction": "Player",
+"Health": 100,
+"ID": 529950905,
+"Metabolism": 0.875932,
+"Multistrike": true,
+"Name": "Morvak",
+"Range": 20,
+"Scale": 0.179301,
+"Speed": 25,
+"Spine_Skeleton": "res://Npcs/player/Units/shark_sharkling_rider_spear.tres",
+"Strength": 15,
+"Type": "Sharkling_Rider_Spear",
+"Unit_name": "Troop_4_Unit_2",
+"Variation": 0.025,
+"Weapon": Object(Node,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","script":Resource("res://Classes/Weapons/Melee/Spears/Spears.gd"),"Stats":{
+"attack_speed": 1.05,
+"cost": 100,
+"critical_chance": 0.1,
+"critical_damage": 1.4,
+"damage": 7.0,
+"durability": 70.0,
+"element": "None",
+"material": {
+"Scale": 0.7,
+"slot": "Spear_wood"
+},
+"name": "wood Spear",
+"range": 150,
+"slot_name": "Spearwood",
+"weight": 2.1
+})
+
+}
+}]]
